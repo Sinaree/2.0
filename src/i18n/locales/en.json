@@ -1,0 +1,195 @@
+{
+  "app": {
+    "name": "Luna",
+    "tagline": "Track gently, know yourself"
+  },
+  "nav": {
+    "calendar": "Calendar",
+    "record": "Record",
+    "stats": "Stats",
+    "settings": "Settings"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "today": "Today",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun",
+    "viewToggle": "View Mode",
+    "calendarView": "Calendar View",
+    "ringView": "Ring View",
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+  },
+  "cycle": {
+    "menstrual": "Menstrual",
+    "follicular": "Follicular",
+    "ovulation": "Ovulation",
+    "luteal": "Luteal",
+    "unknown": "Unknown",
+    "day": "Day {{n}}",
+    "currentPhase": "Current Phase",
+    "predictedPeriod": "Predicted Period"
+  },
+  "dailyLog": {
+    "title": "Today's Log",
+    "bleeding": "Bleeding",
+    "mood": "Mood",
+    "symptoms": "Symptoms",
+    "intercourse": "Intercourse",
+    "pregnancyProbability": "Pregnancy Probability",
+    "more": "More",
+    "pregnancyTest": "Pregnancy Test",
+    "weight": "Weight",
+    "water": "Water",
+    "reminder": "Reminder",
+    "note": "Note",
+    "save": "Save",
+    "cancel": "Cancel",
+    "clickToEdit": "Click to edit",
+    "noRecord": "No record",
+    "cups": "cups",
+    "liters": "L",
+    "kg": "kg",
+    "period": "Period",
+    "startPeriod": "Start Period",
+    "endPeriod": "End Period",
+    "periodDay": "Period · Day {{n}}",
+    "periodNone": "Not set"
+  },
+  "bleeding": {
+    "none": "None",
+    "light": "Light",
+    "medium": "Medium",
+    "heavy": "Heavy"
+  },
+  "mood": {
+    "happy": "Happy",
+    "calm": "Calm",
+    "irritable": "Irritable",
+    "sad": "Sad",
+    "anxious": "Anxious",
+    "tired": "Tired",
+    "energetic": "Energetic"
+  },
+  "intercourse": {
+    "none": "None",
+    "protected": "Protected",
+    "unprotected": "Unprotected"
+  },
+  "pregnancy": {
+    "none": "None",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "test": "Pregnancy Test",
+    "pregnant": "Pregnant",
+    "not_pregnant": "Not Pregnant",
+    "unsure": "Unsure"
+  },
+  "symptoms": {
+    "title": "Symptoms",
+    "cramps": "Cramps",
+    "headache": "Headache",
+    "fatigue": "Fatigue",
+    "bloating": "Bloating",
+    "breastTenderness": "Breast Tenderness",
+    "backache": "Backache",
+    "nausea": "Nausea",
+    "insomnia": "Insomnia",
+    "increasedAppetite": "Increased Appetite",
+    "moodSwings": "Mood Swings",
+    "acne": "Acne",
+    "edema": "Edema",
+    "other": "Other",
+    "addCustom": "Add custom symptom",
+    "none": "No symptoms"
+  },
+  "tips": {
+    "menstrual": {
+      "diet": "Iron-rich foods: dates, spinach, red meat, black fungus",
+      "exercise": "Rest well, gentle yoga & stretching",
+      "life": "Stay warm, avoid cold food"
+    },
+    "follicular": {
+      "diet": "Protein: eggs, fish, legumes",
+      "exercise": "Great time for cardio & strength training",
+      "life": "High energy, great for work & study"
+    },
+    "ovulation": {
+      "diet": "Folic acid: dark greens, nuts",
+      "exercise": "Moderate exercise, avoid overexertion",
+      "life": "Boost immunity, take care"
+    },
+    "luteal": {
+      "diet": "Small frequent meals, reduce sugar",
+      "exercise": "Light stretching, walking",
+      "life": "Manage mood, get enough sleep"
+    }
+  },
+  "trivia": {
+    "title": "Did you know?",
+    "items": [
+      "During menstruation, women's multitasking ability is actually stronger than usual.",
+      "A woman's sense of smell becomes more sensitive during ovulation.",
+      "PMS has over 150 known symptoms.",
+      "A woman has approximately 450 periods in her lifetime.",
+      "Menstrual blood contains endometrial tissue, cervical mucus, and vaginal secretions.",
+      "A normal menstrual cycle ranges from 21 to 35 days.",
+      "A woman's voice may become slightly higher during ovulation.",
+      "Lack of sleep can affect the regularity of your menstrual cycle.",
+      "Moderate exercise helps relieve menstrual discomfort.",
+      "Pain sensitivity may increase around your period.",
+      "Menstrual headaches are linked to dropping estrogen levels.",
+      "Body temperature is usually slightly higher during menstruation.",
+      "Stress is one of the most common causes of irregular periods.",
+      "Drinking enough water can help relieve period bloating.",
+      "Female fertility peaks between ages 25-30.",
+      "15 minutes of sunlight daily helps regulate your cycle.",
+      "The menstrual cycle has four phases: menstrual, follicular, ovulation, and luteal.",
+      "First period usually occurs between ages 11-14.",
+      "Caffeine may worsen breast tenderness during PMS.",
+      "A regular routine is key to maintaining a healthy cycle.",
+      "A hot water bottle on the abdomen can help relieve cramps.",
+      "Dark chocolate during your period can help improve mood."
+    ]
+  },
+  "stats": {
+    "title": "Statistics",
+    "avgCycleLength": "Avg Cycle",
+    "avgPeriodLength": "Avg Period",
+    "days": "days",
+    "noData": "Not enough data yet",
+    "cycleTrend": "Cycle Trend",
+    "symptomFrequency": "Symptom Frequency"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "exportData": "Export Data",
+    "importData": "Import Data",
+    "exportSuccess": "Data exported successfully",
+    "importSuccess": "Data imported successfully",
+    "importError": "Import failed. Invalid file format.",
+    "about": "About",
+    "version": "Version",
+    "defaultView": "Default View Mode",
+    "exportDesc": "Export all data as JSON (for backup or migration)",
+    "importDesc": "Import data from a JSON file",
+    "confirmImport": "Importing will overwrite existing data. Are you sure?"
+  }
+}
