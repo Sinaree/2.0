@@ -1,4 +1,4 @@
- import type { PeriodRecord, CyclePhase } from '@/types'
+﻿ import type { PeriodRecord, CyclePhase } from '@/types'
  
  export function daysBetween(a: Date, b: Date): number {
    return Math.round((b.getTime() - a.getTime()) / 86400000)
@@ -131,8 +131,9 @@ const sorted = [...periods].sort((a, b) => parseDate(b.startDate).getTime() - pa
      menstrual: periodLen,
      follicular: daysBetween(follicularStart, follicularEnd) + 1,
      ovulation: 7,
-     luteal: daysBetween(lutealStart, lutealEnd) + 1,
-   }
+    luteal: daysBetween(lutealStart, lutealEnd) + 1,
+    unknown: 0,
+  }
  
    return {
      phase,
@@ -171,3 +172,4 @@ const sorted = [...periods].sort((a, b) => parseDate(b.startDate).getTime() - pa
    const isPredicted = isPredictedPeriod(date, cycleInfo)
    return { phase: cycleInfo.phase, isPredicted, cycleInfo }
  }
+

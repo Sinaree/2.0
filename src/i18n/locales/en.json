@@ -4,8 +4,8 @@
     "tagline": "Track gently, know yourself"
   },
   "nav": {
+    "home": "Home",
     "calendar": "Calendar",
-    "record": "Record",
     "stats": "Stats",
     "settings": "Settings"
   },
@@ -21,7 +21,7 @@
     "sun": "Sun",
     "viewToggle": "View Mode",
     "calendarView": "Calendar View",
-    "ringView": "Ring View",
+    "cycleView": "Cycle View",
     "jan": "Jan",
     "feb": "Feb",
     "mar": "Mar",
@@ -51,7 +51,6 @@
     "mood": "Mood",
     "symptoms": "Symptoms",
     "intercourse": "Intercourse",
-    "pregnancyProbability": "Pregnancy Probability",
     "more": "More",
     "pregnancyTest": "Pregnancy Test",
     "weight": "Weight",
@@ -66,8 +65,6 @@
     "liters": "L",
     "kg": "kg",
     "period": "Period",
-    "startPeriod": "Start Period",
-    "endPeriod": "End Period",
     "periodDay": "Period · Day {{n}}",
     "periodNone": "Not set"
   },
@@ -191,5 +188,12 @@
     "exportDesc": "Export all data as JSON (for backup or migration)",
     "importDesc": "Import data from a JSON file",
     "confirmImport": "Importing will overwrite existing data. Are you sure?"
+  },
+  "legend": {
+    "menstrual": "Menstrual",
+    "follicular": "Follicular",
+    "ovulation": "Ovulation",
+    "luteal": "Luteal",
+    "predicted": "Predicted Period"
   }
 }
